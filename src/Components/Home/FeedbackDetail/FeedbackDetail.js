@@ -3,7 +3,7 @@ import React from 'react';
 const FeedbackDetail = ({feedback}) => {
     return (
         
-          <div className="card col-md-3 pt-4" style={{marginRight:'40px'}}>
+          <div className="card col-md-3 p-4" style={{marginRight:'40px'}}>
                 <div class="d-flex">
         <div class="flex-shrink-0">
           <img style={{height:'50px'}} src={feedback.img} alt="..."/>

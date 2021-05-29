@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
+import {Link} from 'react-router-dom';
 import headerpic from '../../../Images/logos/headerphoto.png';
 import './Header.css';
 const Header = () => {
@@ -14,7 +15,7 @@ const Header = () => {
                    Brand To The <br/> Next Level</strong></h1>
                <h5>Lorem, ipsum dolor sit amet consectetur <br/> adipisicing elit. Distinctio eius nam, <br/> sequi esse sed quasi! Quas modi.</h5>
                <br/>
-               <button className="btn btn-dark me-5" style={{width:'150px'}} type="button">Hire us</button>
+               <Link to="/sidebar"><button className="btn btn-dark me-5" style={{width:'150px'}} type="button">Hire us</button></Link>
                
 
            </div>
